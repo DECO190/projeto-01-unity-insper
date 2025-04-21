@@ -2,7 +2,7 @@ using UnityEngine;
 
 public static class GameController
 {
-    private static int collectableCount = 10;
+    public static int collectableCount = 0;
     public static int heartCount = 3;
     public static float elapsedTime = 90;
  
@@ -15,21 +15,19 @@ public static class GameController
     {
         get
         {
-            return collectableCount <= 0 || heartCount <= 0 || elapsedTime <= 0;
+            return collectableCount >= 10 || heartCount <= 0 || elapsedTime <= 0;
         }
     }
 
     public static void Init()
     {
         heartCount = 3;
-        collectableCount = 10;
+        collectableCount = 0;
         elapsedTime = 180;
     }
 
-   
-
     public static void Collect()
     {
-        collectableCount--;
+        collectableCount++;
     }
 }
