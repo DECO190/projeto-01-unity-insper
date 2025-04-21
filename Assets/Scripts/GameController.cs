@@ -4,7 +4,7 @@ public static class GameController
 {
     private static int collectableCount = 10;
     public static int heartCount = 3;
-    public static float elapsedTime = 180;
+    public static float elapsedTime = 90;
  
     public static void removeHeart() 
     {

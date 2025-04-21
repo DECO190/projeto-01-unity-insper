@@ -3,7 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private Transform target;
-    public float speed = 7;
+    public float speed = 4;
     
     private AudioSource audio;
     private SpriteRenderer spriteRenderer;
