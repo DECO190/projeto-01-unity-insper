@@ -15,7 +15,15 @@ public static class GameController
     {
         get
         {
-            return collectableCount >= 10 || heartCount <= 0 || elapsedTime <= 0;
+            return heartCount <= 0 || elapsedTime <= 0;
+        }
+    }
+    
+    public static bool win 
+    {
+        get
+        {
+            return heartCount > 0 && elapsedTime > 0 && collectableCount >= 10;
         }
     }
 

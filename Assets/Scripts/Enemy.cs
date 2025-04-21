@@ -26,6 +26,12 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (GameController.gameOver || GameController.win)
+        {
+            return;
+        }
+
+        
         if (damageCooldown > 0)
         {
             damageCooldown -= Time.deltaTime;

@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (GameController.gameOver)
+        if (GameController.gameOver || GameController.win)
         {
             return;
         }

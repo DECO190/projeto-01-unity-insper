@@ -17,7 +17,7 @@ public class HudRender : MonoBehaviour
     {
         heartText.text = "".PadLeft(GameController.heartCount, '|');
 
-        coinsText.text = GameController.collectableCount + "/10";
+        coinsText.text = GameController.collectableCount.ToString() + "/10";
     }
     
     void Update()

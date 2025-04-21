@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-   public GameObject endGamePanel;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
+   public GameObject gameOverPanel;
+   public GameObject winPanel;
+   
     void FixedUpdate()
     {
         if (GameController.gameOver)
         {
-            endGamePanel.SetActive(true);
+            gameOverPanel.SetActive(true);
+        }
+
+        if (GameController.win)
+        {
+            winPanel.SetActive(true);
         }
     }
 }
