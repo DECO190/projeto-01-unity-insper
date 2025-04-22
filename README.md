@@ -1,4 +1,4 @@
-
+<img src="./banner-jogo.png" alt="Banner do Jogo" width="100%"/>
 
 Desenvolvido por: **Andre Pereira de Oliveira**
 - Jogo simples, onde o jogador deve coletar moedas e evitar o monstro tudo isso em menos de 180 segundos.
