@@ -5,6 +5,9 @@ Desenvolvido por: **Andre Pereira de Oliveira** - Insper C. Comp.
 - Tudo foi feito dentro do Unity, utilizando C# como linguagem de programação.
  > Projeto de estudo, com o objetivo de aprender mais sobre desenvolvimento de jogos e Unity.
 
+- Link do itch.io: [Clique aqui](https://deco190.itch.io/medieval-adventure-project)
+
+
 ## Referência dos assets 
 - https://mixkit.co/free-sound-effects/coin/
 - https://pixabay.com/sound-effects/sfx12-boss-damage1-324520/
