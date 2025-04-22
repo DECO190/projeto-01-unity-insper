@@ -4,3 +4,6 @@
 - https://pixabay.com/sound-effects/creepy-laugh-97997/
 - https://chr15m.itch.io/doodle-rogue-tileset
 - https://www.youtube.com/watch?v=jZ7a1yPaJh0&ab_channel=BrandonFiechter%27sMusic
+
+## Referência do código
+- https://damiandabrowski.medium.com/how-to-add-and-manage-background-music-in-your-unity-projects-86cd5889a542

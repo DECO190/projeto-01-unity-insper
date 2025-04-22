@@ -22,6 +22,11 @@ public class HudRender : MonoBehaviour
     
     void Update()
     {
+        if (GameController.win || GameController.gameOver)
+        {
+            return;
+        }
+        
         GameController.elapsedTime -= Time.deltaTime;
         
         int minutes = Mathf.FloorToInt(GameController.elapsedTime / 60);
