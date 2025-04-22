@@ -1,6 +1,6 @@
 <img src="./banner-jogo.png" alt="Banner do Jogo" width="100%"/>
 
-Desenvolvido por: **Andre Pereira de Oliveira**
+Desenvolvido por: **Andre Pereira de Oliveira** - Insper C. Comp.
 - Jogo simples, onde o jogador deve coletar moedas e evitar o monstro tudo isso em menos de 180 segundos.
 - Tudo foi feito dentro do Unity, utilizando C# como linguagem de programação.
  > Projeto de estudo, com o objetivo de aprender mais sobre desenvolvimento de jogos e Unity.
