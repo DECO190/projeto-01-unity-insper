@@ -7,6 +7,8 @@ public class EndPanel : MonoBehaviour
     
     void FixedUpdate()
     {
-        remainingSecondsText.text = "Tempo restante: " + GameController.elapsedTime.ToString()  + "s"; 
+        int seconds = Mathf.FloorToInt(GameController.elapsedTime);
+
+        remainingSecondsText.text = "Tempo restante: \n" + seconds.ToString()  + "s"; 
     }
 }
